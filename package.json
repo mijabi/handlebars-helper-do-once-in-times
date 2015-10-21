@@ -1,6 +1,6 @@
 {
   "name": "handlebars-helper-do-once-in-times",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This helper allows you to do something only once every x times during {{# each}}.",
   "main": "./index.js",
   "scripts": {

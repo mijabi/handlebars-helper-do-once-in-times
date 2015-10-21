@@ -50,7 +50,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-assemble');
 
-  grunt.registerTask('default', ['watch']);
+  grunt.registerTask('default', ['assemble', 'watch']);
 
 };
 ```
