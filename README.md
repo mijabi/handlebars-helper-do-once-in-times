@@ -2,6 +2,10 @@
 
 This helper allows you to do something only once every x times during {{# each}}.
 
+- [npmjs](https://www.npmjs.com/package/handlebars-helper-do-once-in-times)
+- [github](https://github.com/mijabi/handlebars-helper-do-once-in-times)
+
+
 
 ## Install
 
@@ -116,10 +120,10 @@ layout: default.hbs
 
   <ul class="triplet first">
     {{# each list }}
-  {{#assemble-repeat-xtimes @index 3}}
+  {{#handlebars-helper-do-once-in-times @index 3}}
   </ul>
   <ul class="triplet">
-  {{/assemble-repeat-xtimes}}
+  {{/handlebars-helper-do-once-in-times}}
     <li>
       {{# each description}}
       <p>{{{this}}}</p>
