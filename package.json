@@ -1,0 +1,26 @@
+{
+  "name": "handlebars-helper-do-once-in-times",
+  "version": "0.0.1",
+  "description": "This helper allows you to do something only once every x times during {{# each}}.",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mijabi/handlebars-helper-do-once-in-times.git"
+  },
+  "keywords": [
+    "assemble",
+    "each",
+    "repeat",
+    "grunt",
+    "handlebars"
+  ],
+  "author": "mijabi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mijabi/handlebars-helper-do-once-in-times/issues"
+  },
+  "homepage": "https://github.com/mijabi/handlebars-helper-do-once-in-times"
+}
